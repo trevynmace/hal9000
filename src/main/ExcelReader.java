@@ -5,6 +5,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Iterator;
 
+import javax.swing.JFileChooser;
+
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -15,10 +17,19 @@ public class ExcelReader
 {
 	public static void main(String[] args)
 	{
-		String excelFilePath = "src\\Sec 3_ Rationals part 1 Test.xlsx";
+		JFileChooser chooser = new JFileChooser(System.getProperty("user.home"));
+		int option = chooser.showOpenDialog(null);
+
+		File file = null;
+
+		if (option == JFileChooser.APPROVE_OPTION)
+		{
+			file = chooser.getSelectedFile();
+		}
+
 		try
 		{
-			FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
+			FileInputStream inputStream = new FileInputStream(file);
 
 			Workbook workbook = new XSSFWorkbook(inputStream);
 			Sheet firstSheet = workbook.getSheetAt(0);
