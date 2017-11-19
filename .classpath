@@ -2,10 +2,10 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/Trevyn/git/hal9000/src/libs/poi-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Trevyn/git/hal9000/src/libs/poi-ooxml-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Trevyn/git/hal9000/src/libs/poi-ooxml-schemas-3.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Trevyn/git/hal9000/src/libs/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Trevyn/git/hal9000/src/libs/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Breawn/Git/hal9000/src/libs/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Breawn/Git/hal9000/src/libs/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Breawn/Git/hal9000/src/libs/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Breawn/Git/hal9000/src/libs/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Breawn/Git/hal9000/src/libs/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
