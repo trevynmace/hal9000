@@ -15,7 +15,7 @@ public class ExcelReader
 {
 	public static void main(String[] args)
 	{
-		String excelFilePath = "C:\\Users\\Breawn\\Git\\hal9000\\src\\Sec 3_ Rationals part 1 Test.xlsx";
+		String excelFilePath = "src\\Sec 3_ Rationals part 1 Test.xlsx";
 		try
 		{
 			FileInputStream inputStream = new FileInputStream(new File(excelFilePath));
